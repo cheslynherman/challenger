@@ -28,6 +28,62 @@ router.patch("/user/:id", (req, res) => {
     // Implement logic to modify a users record
 });
 
-// and so on for other routes
+// To register a new user
+router.post("/register", (req, res) => {
+
+});
+
+// To delete a single user
+router.delete("/user/:id", (req, res)=> {
+
+});
+
+// To add a new book
+router.post("/book", (req, res) => {
+
+});
+
+// Display a list of books 
+router.get ("/books", (req, res) => {
+
+});
+
+// To display a single book
+router.get ("/book/:id", (req, res) => {
+
+});
+
+// modify or replace a books record
+router.patch("/book/:id", (req, res) => {
+
+});
+router.put("/book/:id", (req, res) => {
+
+});
+
+// delete a book
+router.delete("/book/:id", (req, res) => {
+
+});
+
+// add a books author details
+router.post("/bookAuthor", (req, res) => {
+
+});
+
+// display a list of books and authors avoid duplicate
+router.get("/bookDetails", (req, res) => {
+
+});
+
+// update book author details
+router.patch("/bookAuthor/:id", (req, res) => {
+
+});
+
+// remove book author details
+router.delete("bookAuthor/:id", (req, res) => {
+
+});
 
 module.exports= router;
